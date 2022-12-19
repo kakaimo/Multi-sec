@@ -1,0 +1,106 @@
+body {
+
+        background-image: url(img/back-g/photo_2022-11-03_15-38-00.jpg);
+        color: white;
+
+}
+.back{
+    
+        text-align: center;
+        padding: 40px 0 0;    
+}
+.back a{
+        
+        color: white;
+        font-size: 48px;
+        margin-top: 90px;
+        display: block;
+}
+
+
+h1 {
+        text-transform: uppercase;
+        text-align: center;
+        font-size: 66px;
+        margin: 150px 0 0;
+
+}
+
+p {
+        color: rgba(247, 0, 0, 0.889);
+        font-size: 80px;
+        margin: 20px 0 95px;
+}
+
+.vid3 i{
+        
+    margin: 140px 0;
+    font-size: 75px;
+}
+
+.vid3 {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: column;
+        align-items: center;
+}
+
+
+
+.vid3 .box {
+        overflow: hidden;
+        position: relative;
+}
+
+.vid3 .box:hover .text {
+        bottom: 0;
+    transition-delay: 0.3s;
+}
+
+
+.vid3 .box video {
+        max-width: 100%;
+        transition: 0.3s;
+}
+
+.vid3  .box .text {
+        text-align: center;
+        position: absolute;
+        left: 0;
+        padding: 20px;
+        background-color: #ffffffab;
+        width: 100%;
+        height: 50%;
+        transition: 0.3s;
+        bottom: -100%;
+    }
+
+.foot{
+        background-color: #ffffffb8;
+        color: black;
+        padding: 30px 10px;
+        text-align: center;
+        margin-top: 150px;
+        border-radius: 5px;
+        font-size: 20px;
+        letter-spacing: 5px;
+    }
+    .foot span{
+        top: 3px;
+        position: relative;
+        font-weight: bold;
+        color: blue;
+        font-family: serif;
+        font-size: 31px;
+    }
+   
+
+
+
+
+
+
+
+
+
+   
